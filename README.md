@@ -2,6 +2,8 @@
 
 # Tiny Tapeout Wokwi Project Template
 
+Multiplicador binario de 4x4 bits, diseñado para tomar dos números de 4 bits (A0-A3 y B0-B3) para generar un resultado de 8 bits (P0-P7). Su funcionamiento se basa en tres etapas principales. Primero, se generan los productos parciales mediante compuertas AND, multiplicando cada bit del número A con cada bit del número B. Luego, estos productos parciales se organizan en filas escalonadas y se suman utilizando compuertas XOR y AND para manejar los acarreos intermedios. Finalmente, el resultado se muestra a través de LEDs o un display de 7 segmentos.
+
 - [Read the documentation for project](docs/info.md)
 
 ## What is Tiny Tapeout?
